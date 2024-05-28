@@ -18,4 +18,4 @@ dgl-cu113                    0.8.2.post1
 sentence-transformers        2.2.0
 ```
 ### Usage
-The origine dataset is job-resume text pairs, including job description and resume sentences. Since all the text is written by Chinese, so I use [bert-chinese](https://huggingface.co/google-bert/bert-base-chinese) as my pre-trained model. After the natrual language text are processed into embedding vectors, they will be put into a RGCN model to make predictions of whether a job and a resume can be matched.
+The origine dataset is job-resume text pairs, including job description and resume sentences. Since all the text is written by Chinese, I use [bert-chinese](https://huggingface.co/google-bert/bert-base-chinese) as my pre-trained model. After the natrual language text are processed into embedding vectors by sentence-BERT, they will be put into a RGCN model to make predictions of whether a job and a resume can be matched.
